@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/suneelbelkhale1/git/mlcv-mazerunner/OpenTLD/src/3rdparty/libconfig/libconfig.h
+stdio.h
+-
+
+/Users/suneelbelkhale1/git/mlcv-mazerunner/OpenTLD/src/3rdparty/libconfig/libconfig.h++
+stdio.h
+-
+exception
+-
+string
+-
+
+/Users/suneelbelkhale1/git/mlcv-mazerunner/OpenTLD/src/3rdparty/libconfig/libconfigcpp.c++
+libconfig.h++
+/Users/suneelbelkhale1/git/mlcv-mazerunner/OpenTLD/src/3rdparty/libconfig/libconfig.h++
+wincompat.h
+/Users/suneelbelkhale1/git/mlcv-mazerunner/OpenTLD/src/3rdparty/libconfig/wincompat.h
+libconfig.h
+/Users/suneelbelkhale1/git/mlcv-mazerunner/OpenTLD/src/3rdparty/libconfig/libconfig.h
+cstring
+-
+cstdlib
+-
+sstream
+-
+
+/Users/suneelbelkhale1/git/mlcv-mazerunner/OpenTLD/src/3rdparty/libconfig/libconfigcpp.cc
+libconfigcpp.c++
+/Users/suneelbelkhale1/git/mlcv-mazerunner/OpenTLD/src/3rdparty/libconfig/libconfigcpp.c++
+
+/Users/suneelbelkhale1/git/mlcv-mazerunner/OpenTLD/src/3rdparty/libconfig/wincompat.h
+windows.h
+-
+
